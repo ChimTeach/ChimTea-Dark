@@ -1,0 +1,30 @@
+{
+  "name": "chimtea-dark",
+  "version": "1.0.0",
+  "description": "dark template",
+  "main": "sass/chimtea-dark.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url sass/chimtea-dark.scss css/chimtea-dark.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChimTeach/ChimTea-Dark.git"
+  },
+  "keywords": [
+    "dark",
+    "template"
+  ],
+  "author": "ChimTea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChimTeach/ChimTea-Dark/issues"
+  },
+  "homepage": "https://github.com/ChimTeach/ChimTea-Dark#readme",
+  "devDependencies": {
+    "bulma": "^0.9.4",
+    "node-sass": "^7.0.3"
+  }
+}
